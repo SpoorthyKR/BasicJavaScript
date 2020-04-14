@@ -1,0 +1,46 @@
+//User to enter name and displaying the same name with welcome message
+
+<script type="text/javascript" >
+var str=window.prompt(" Enter your name ");
+document.write(" Welcome " + str );
+</script>
+
+//Print next 5 numbers of user entered digit
+
+<script type="text/javascript" >
+
+ var str=window.prompt(" Enter a number ");
+ 
+ str=parseInt(str); 
+ for(i=str; i<str+5; i++)
+ { document.write(i + "<br>"); } 
+</script>
+
+//Print the user entered string in reverse order<script type="text/javascript" >
+var my_str=window.prompt("Enter your name");
+var i=my_str.length;
+i=i-1;
+for (var x = i; x >=0; x--)
+{
+document.write(my_str.charAt(x));
+}
+</script>
+
+//Multiplication table of a user entered number
+
+<script type="text/javascript" > 
+var str=window.prompt(" Enter a number "); 
+str=parseInt(str); 
+for(i=1; i<=10; i++)
+{ document.write(i * str + ","); } 
+</script>
+
+//Sum of two numbers as entered by user
+<script type='text/javascript'> 
+var a,b,c; 
+aVal=window.prompt("enter your first no."); 
+bVal=window.prompt("enter your 2nd no.");
+ a=parseInt( aVal);
+ b=parseInt( bVal); 
+ result=a+b; 
+ document.writeln("the sum is: "+result); </script>
